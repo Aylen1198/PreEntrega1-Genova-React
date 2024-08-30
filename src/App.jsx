@@ -11,7 +11,7 @@ const App = () => {
     <>
       <NavBar/>
 
-      <ItemListContainer/>
+      <ItemListContainer greeting="Hot selling"/>
     </>
   )
 }

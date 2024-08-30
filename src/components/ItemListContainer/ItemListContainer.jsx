@@ -1,9 +1,9 @@
-import React from 'react'
+import './ItemListContainer.css'
 
-const ItemListContainer = () => {
+const ItemListContainer = ({greeting}) => {
   return (
     <div>
-      
+      <h2> {greeting}</h2>
     </div>
   )
 }
